@@ -11,6 +11,7 @@
   inputs.src-osrm-master.ref   = "refs/heads/master";
   inputs.src-osrm-master.owner = "juancarlospaco";
   inputs.src-osrm-master.repo  = "nim-osrm";
+  inputs.src-osrm-master.dir   = "";
   inputs.src-osrm-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
